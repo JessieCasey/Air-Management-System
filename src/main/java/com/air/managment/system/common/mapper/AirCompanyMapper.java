@@ -15,13 +15,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Mapper(componentModel = "spring", uses = {AirplaneMapper.class, FlightMapper.class})
-// Specify the usage of AirplaneMapper
 public interface AirCompanyMapper {
 
     /**
      * Converts {@link AirCompanyDto} into {@link AirCompany}.
      */
-
     AirCompany toAirCompany(AirCompanyDto airCompanyDto);
 
     /**
