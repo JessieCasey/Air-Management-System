@@ -24,7 +24,7 @@ To begin, you'll need to have this project installed on your computer.
 
 ``` cd AirManagementSystem/  ```
 
-🧠 Also, If you want to use test data, I would recommend you to put the file `data.sql` from `./data` folder into `./resources` folder, so then Spring Boot will automatically load it to the database.
+🧠 Also, If you want to use test data, I would recommend you to put the file `data.sql` from `./data` folder into `./src/main/java/resources` folder, so then Spring Boot will automatically load it to the database.
 
 ### 2. Run docker-compose.yml file
 Make sure you have Docker installed on your computer. Then execute the following command to build the Spring Boot application and MySQL server:
