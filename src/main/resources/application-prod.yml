@@ -1,0 +1,6 @@
+MYSQL_USERNAME: "user_prod"
+MYSQL_PASSWORD: "mypassword_prod"
+MYSQL_URL: "jdbc:mysql://db:3306/air_manager_db_prod"
+DDL_AUTO_MODE: "create-drop"
+INIT_MODE: "always"
+PORT: "8080"
