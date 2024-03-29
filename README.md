@@ -26,6 +26,7 @@ To begin, you'll need to have this project installed on your computer.
 
 ### 2. Run docker-compose.yml file
 Make sure you have Docker installed on your computer. Then execute the following command to build the Spring Boot application and MySQL server:
+Please note! That you don't need to run `./dev/docker-compose-dev.yml` file, it is for only development purposes.
 
 ``` docker compose up -d  ```
 
@@ -46,7 +47,7 @@ If you see the following message in the terminal, congratulations, you've comple
 
 ### 🌿 Start
 
-Let's try making some requests. To do this, you'll need to have `Postman` installed. After installation, import the file `Air-Management-System.postman_collection.json`. Once imported, you should see something like this:
+Let's try making some requests. To do this, you'll need to have `Postman` installed. After installation, import the file `./documentation/Air-Management-System.postman_collection.json`. Once imported, you should see something like this:
 
 ![greeting page](./documentation/images/postman-main.png)
 
